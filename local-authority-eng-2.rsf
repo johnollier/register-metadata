@@ -1,0 +1,5 @@
+assert-root-hash	sha-256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+add-item	{"local-authority-eng":"BAS","local-authority-type":"UA","name":"Bath and North East Somerset","official-name":"Bath and North East Somerset Council","start-date":"1996-04-01"}
+append-entry	BAS	2017-05-11T14:10:56Z	sha-256:6c4c815895ea675857ee4ec3fb40571ce54faf5ebcdd5d73a2aae347d4003c31
+add-item	{"local-authority-eng":"BBD","local-authority-type":"UA","name":"Blackburn with Darwen","official-name":"Blackburn with Darwen Borough Council","start-date":"1998-04-01"}
+append-entry	BBD	2017-05-11T14:10:56Z	sha-256:37dd060a3efa6d5bf16f876e08fa867210f424e2e4a7989d0322218f6772332d

@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "id": "http://register.gov.uk/schemas/local-authority-eng.json", 
+    "properties": {
+        "end-date": {
+            "description": "The date a record stopped being relevant to a register.",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "type": "string"
+        },
+        "local-authority-eng": {
+            "description": "The local authority's ISO 3166-1 alpha3 code. Unique codes have been created for local authorities that don't have an existing ISO code.",
+            "type": "string"
+        },
+        "local-authority-type": {
+            "description":"The type of a local government organisation.",
+            "type": "string"
+        },
+        "name": {
+            "description":"The commonly-used name of a record.",
+            "type": "string"
+        },
+        "start-date": {
+            "description": "The date a record first became relevant to a register.",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "type": "string"
+        },
+        "website": {
+            "description":"Website for register entry.",
+	    "format":"uri",
+            "type": "string"
+        }
+    },
+    "required": ["local-authority-eng"],
+    "title": "local-authority-eng",
+    "type": "object"
+}
+

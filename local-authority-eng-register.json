@@ -1,0 +1,9 @@
+{
+    "name": "local-authority-eng",
+    "description": "Local authorities in England",
+    "registry": "department-for-communities-and-local-government",
+    "copyright":"",
+    "phase": "alpha",
+    "custodian": "Giles Farnes-Barnes",
+    "manager": "Department for Communities and Local Government"
+}
