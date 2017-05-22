@@ -1,7 +1,16 @@
-{
-    "local-authority-eng": "BAS",
-    "local-authority-type": "UA",
-    "name": "Bath and North East Somerset",
-    "official-name": "Bath and North East Somerset Council",
-    "start-date": "1996-04-01"
-}
+[
+    {
+        "local-authority-eng": "BAS",
+        "local-authority-type": "UA",
+        "name": "Bath and North East Somerset",
+        "official-name": "Bath and North East Somerset Council",
+        "start-date": "1996-04-01"
+    },
+    {
+        "local-authority-eng": "BBD",
+        "local-authority-type": "UA",
+        "name": "Blackburn",
+        "official-name": "Blackburn",
+        "start-date": "1996-04-01"
+    }
+]
