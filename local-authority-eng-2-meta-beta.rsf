@@ -1,0 +1,23 @@
+assert-root-hash	sha-256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+add-item	{"name":"local-authority-eng"}
+append-entry	system	name	2017-01-10T17:16:07Z	sha-256:41ebaf26a5a1ae11d2d6f8dce81922ae46ab354b049efdb5d2fc8e2fa951097d
+add-item	{"cardinality":"1","datatype":"datetime","field":"end-date","phase":"beta","text":"The date a record stopped being applicable. For example, the date a school closed down."}
+add-item	{"cardinality":"1","datatype":"string","field":"local-authority-eng","phase":"beta","register":"local-authority-eng","text":"The local authority's ISO 3166-1 alpha3 code. Unique codes have been created for local authorities that don't have an existing ISO code."}
+add-item	{"cardinality":"1","datatype":"string","field":"local-authority-type","phase":"beta","register":"local-authority-type","text":"The type of local government organisation."}
+add-item	{"cardinality":"1","datatype":"string","field":"name","phase":"beta","text":"The commonly-used name of a record."}
+add-item	{"cardinality":"1","datatype":"string","field":"official-name","phase":"beta","text":"The official or technical name of a record."}
+add-item	{"cardinality":"1","datatype":"datetime","field":"start-date","phase":"beta","text":"The date a record first became relevant to a register. For example, the date a country was first recognised by the UK."}
+append-entry	system	field:end-date	2017-01-10T17:16:07Z	sha-256:a557fa9bf4a6ce1991717b9429406f4fa724fb8818dfe018d306694de22efbf7
+append-entry	system	field:local-authority-eng	2017-01-10T17:16:07Z	sha-256:9980619a9bb4f9badd0456d7f3740fb6d97d7ca816e4db8d34d544e2695b51fe
+append-entry	system	field:local-authority-type	2017-01-10T17:16:07Z	sha-256:c244c74c48c14b08aa98346ee8064743e65d6331b09d524c03a333468f3b58da
+append-entry	system	field:name	2017-01-10T17:16:07Z	sha-256:a7a9f2237dadcb3980f6ff8220279a3450778e9c78b6f0f12febc974d49a4a9f
+append-entry	system	field:official-name	2017-01-10T17:16:07Z	sha-256:5c4728f439f6cbc6c7eea42992b858afc78c182962ba35d169f49db2c88e1e41
+append-entry	system	field:start-date	2017-01-10T17:16:07Z	sha-256:1cff4c622577fabd35917760b04bc304af3b950e19735b60152c19f18b55e75e
+add-item	{"fields":["local-authority-eng","local-authority-type","name","official-name","start-date","end-date"],"phase":"beta","register":"local-authority-eng","registry":"department-for-communities-and-local-government","text":"Local authorities in England"}
+append-entry	system	register:local-authority-eng	2016-10-21T15:20:42Z	sha-256:c1762331b777d5f820735a693cc9443eebefc076fa7f2ce0ceaeea9d0f52a5d4
+add-item	{"custodian":"Stephen McAllister"}
+append-entry	system	custodian	2017-01-10T17:16:07Z	sha-256:1a79573f28a473bc281ae5ef7f1a910da710648bc666abf5930e05e1ed962f39
+add-item	{"local-authority-eng":"BAS","local-authority-type":"UA","name":"Bath and North East Somerset","official-name":"Bath and North East Somerset Council","start-date":"1996-04-01"}
+add-item	{"local-authority-eng":"BBD","local-authority-type":"UA","name":"Blackburn with Darwen","official-name":"Blackburn with Darwen Borough Council","start-date":"1998-04-01"}
+append-entry	user	BAS	2016-10-21T16:11:20Z	sha-256:6c4c815895ea675857ee4ec3fb40571ce54faf5ebcdd5d73a2aae347d4003c31
+append-entry	user	BBD	2016-10-21T16:11:20Z	sha-256:37dd060a3efa6d5bf16f876e08fa867210f424e2e4a7989d0322218f6772332d

@@ -1,0 +1,126 @@
+[
+    {
+        "assert-root-hash": "sha-256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "metadata-schema": {
+            "$schema": "http://json-schema.org/draft-04/schema#",
+            "additionalProperties": false,
+            "properties": {
+                "copyright": {
+                    "type": "string"
+                },
+                "custodian": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "manager": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "registry": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "description",
+                "registry",
+                "custodian",
+                "manager"
+            ],
+            "title": "register-metadata",
+            "type": "object"
+        }
+    },
+    {
+        "register-metadata": {
+            "custodian": "Giles Farnes-Barnes",
+            "description": "Local authorities in England",
+            "manager": "Department for Communities and Local Government",
+            "name": "local-authority-eng",
+            "phase": "alpha",
+            "registry": "department-for-communities-and-local-government"
+        }
+    },
+    {
+        "item-schema": {
+            "$schema": "http://json-schema.org/draft-04/schema#",
+            "additionalProperties": false,
+            "properties": {
+                "end-date": {
+                    "description": "The date a record stopped being applicable.",
+                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+                    "type": "string"
+                },
+                "local-authority-eng": {
+                    "description": "The local authority's ISO 3166-1 alpha3 code. Unique codes have been created for local authorities that don't have an existing ISO code.",
+                    "type": "string"
+                },
+                "local-authority-type": {
+                    "description": "The type of a local government organisation.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The commonly-used name of a record.",
+                    "type": "string"
+                },
+                "official-name": {
+                    "description": "The official or technical name of a record.",
+                    "type": "string"
+                },
+                "start-date": {
+                    "description": "The date a record first became relevant to a register.",
+                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+                    "type": "string"
+                },
+                "website": {
+                    "description": "Website for register entry.",
+                    "format": "uri",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "local-authority-eng"
+            ],
+            "title": "local-authority-eng",
+            "type": "object"
+        }
+    },
+    {
+        "add-item": {
+            "local-authority-eng": "BAS",
+            "local-authority-type": "UA",
+            "name": "Bath and North East Somerset",
+            "official-name": "Bath and North East Somerset Council",
+            "start-date": "1996-04-01"
+        }
+    },
+    {
+        "append-entry": {
+            "item-hash": "sha-256:6c4c815895ea675857ee4ec3fb40571ce54faf5ebcdd5d73a2aae347d4003c31",
+            "key": "BAS",
+            "timestamp": "2017-05-11T14:10:56Z"
+        }
+    },
+    {
+        "add-item": {
+            "local-authority-eng": "BBD",
+            "local-authority-type": "UA",
+            "name": "Blackburn with Darwen",
+            "official-name": "Blackburn with Darwen Borough Council",
+            "start-date": "1998-04-01"
+        }
+    },
+    {
+        "append-entry": {
+            "item-hash": "sha-256:37dd060a3efa6d5bf16f876e08fa867210f424e2e4a7989d0322218f6772332d",
+            "key": "BBD",
+            "timestamp": "2017-05-11T14:10:56Z"
+        }
+    }
+]

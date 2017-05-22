@@ -1,0 +1,21 @@
+assert-root-hash	sha-256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+add-item	{"cardinality":"1","datatype":"string","field":"website","phase":"discovery","text":"Website for register entry."}
+append-entry	field:website	2017-05-11T14:10:56Z	sha-256:3802b33bd3bdcd0dd8c04c60d80e9370964abd581e527214fd374f60045a0f20
+add-item	{"cardinality":"1","datatype":"string","field":"name","phase":"discovery","text":"The commonly-used name of a record."}
+append-entry	field:name	2017-05-11T14:10:56Z	sha-256:7562f5d65c78b00628de842866756b25ffc21fb3d8bba3454802d5fa749cb725
+add-item	{"cardinality":"1","datatype":"string","field":"local-authority-eng","phase":"discovery","register":"local-authority-eng","text":"The local authority's ISO 3166-1 alpha3 code. Unique codes have been created for local authorities that don't have an existing ISO code."}
+append-entry	field:local-authority-eng	2017-05-11T14:10:56Z	sha-256:8705836a2491468586351cd20d3ba7cedf019c80121f77ef35dc4f2c321b4ff8
+add-item	{"cardinality":"1","datatype":"string","field":"local-authority-type","phase":"discovery","register":"local-authority-type","text":"The type of a local government organisation in the United Kingdom."}
+append-entry	field:local-authority-type	2017-05-11T14:10:56Z	sha-256:620b88f6d85f50e2c1081af26d87f45720febd5cc4352692936a378531cf7854
+add-item	{"cardinality":"1","datatype":"datetime","field":"start-date","phase":"discovery","text":"The date a record first became relevant to a register."}
+append-entry	field:start-date	2017-05-11T14:10:56Z	sha-256:0bc6f9dbeabcdf17b5ef4bc824df5795bbe4cea7bb6522e16c7b8fd139b77124
+add-item	{"cardinality":"1","datatype":"datetime","field":"end-date","phase":"discovery","text":"The date a record stopped being applicable."}
+append-entry	field:end-date	2017-05-11T14:10:56Z	sha-256:c31d1f0e1f378ead6fc6f8625ebc275feb8ad0378fb6068c5528809b1b1502ca
+add-item	{"phase":"discovery","register":"local-authority-eng","registry":"department-for-communities-and-local-government","text":"Local authorities in England"}
+append-entry	register:local-authority-eng	2017-05-11T14:10:56Z	sha-256:42e176234be89022ffd32e5f4966695819ac5a2a5fb344ac08eea42c01eff223
+add-item	{"custodian":"Abel Twigg"}
+append-entry	meta:custodian	2017-05-11T14:10:56Z	sha-256:786de79e19f515d8cf7e2bebae83d8d31969ba0464a5e4f3481cbad0b6d26508
+add-item	{"local-authority-eng":"BAS","local-authority-type":"UA","name":"Bath and North East Somerset","official-name":"Bath and North East Somerset Council","start-date":"1996-04-01"}
+append-entry	BAS	2017-05-11T14:10:56Z	sha-256:6c4c815895ea675857ee4ec3fb40571ce54faf5ebcdd5d73a2aae347d4003c31
+add-item	{"local-authority-eng":"BBD","local-authority-type":"UA","name":"Blackburn with Darwen","official-name":"Blackburn with Darwen Borough Council","start-date":"1998-04-01"}
+append-entry	BBD	2017-05-11T14:10:56Z	sha-256:37dd060a3efa6d5bf16f876e08fa867210f424e2e4a7989d0322218f6772332d

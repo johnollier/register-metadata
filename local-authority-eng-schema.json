@@ -1,10 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "additionalProperties": false,
-    "id": "http://register.gov.uk/schemas/local-authority-eng.json", 
     "properties": {
         "end-date": {
-            "description": "The date a record stopped being relevant to a register.",
+            "description": "The date a record stopped being applicable.",
             "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
             "type": "string"
         },
@@ -13,30 +12,31 @@
             "type": "string"
         },
         "local-authority-type": {
-            "description":"The type of a local government organisation.",
+            "description": "The type of a local government organisation.",
             "type": "string"
         },
         "name": {
-            "description":"The commonly-used name of a record.",
+            "description": "The commonly-used name of a record.",
             "type": "string"
         },
         "official-name": {
-            "description":"The official or technical name of a record.",
+            "description": "The official or technical name of a record.",
             "type": "string"
         },
         "start-date": {
             "description": "The date a record first became relevant to a register.",
-            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" ,
             "type": "string"
         },
         "website": {
-            "description":"Website for register entry.",
-	    "format":"uri",
+            "description": "Website for register entry.",
+            "format": "uri",
             "type": "string"
         }
     },
-    "required": ["local-authority-eng"],
+    "required": [
+        "local-authority-eng"
+    ],
     "title": "local-authority-eng",
     "type": "object"
 }
-
